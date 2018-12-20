@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1002px;
+	margin:0 auto;
+}
+.top{
+	height: 40px;
+	background: #f6f6f6;
+}
+.top ul{
+    float: right;
+}
+.top li{
+	float: left;
+	margin: 5px;	
+}
+
+.top li a{
+	text-decoration: none;
+	line-height: 28px;	
+}
+
+.top a img{
+    margin-right: 3px;
+    float: left; 
+}
+.top li span{
+	float: left;
+}
+.facebook{
+	border-right: 2px solid #cccccc;
+	padding-right: 8px;
+}
+.facebook span{
+	color: #4460a0;
+}
+.twitter span{
+	color: #00aaec;
+}
+.clearfix{
+	 clear: both; 
+}
+
+.header h1{
+	float:left; 
+}
+.header h1 a{
+	background-image: url(images/hex_school.png);
+	height: 50px;
+	width: 175px;
+	display: block;
+	text-indent: 101%;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.header{
+	height: 50px;
+}
+.header ul{
+	float: right;
+}
+.header li{
+	float: left;
+}
+.header li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #00cc99;
+	display: block;
+	height: 45px;
+	width: 100px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.header li a:hover{
+	border-bottom: 5px solid  #00cc99;
+}
+
+.content ul{
+	margin-top:65px;
+}
+.content li{
+	float:left;
+	width: 300px;
+	height: 330px;
+	margin-left: 30px;
+	border-radius: 5px;
+	border:1px solid #f6f6f6;
+	box-shadow: 0 5px 1px #e4e4e4;
+}
+
+.main .html img{
+	margin:5px 0 0 75px;
+}
+.main .RWD img{
+	margin:5px 0 0 20px;
+}
+
+.content h2{
+   font-size: 20px;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   font-weight:bold; 
+
+}
+
+.content p{
+	line-height: 23px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.table h3{
+       margin-top:65px;
+       font-size: 25px;
+       text-align: center;
+       margin-bottom: 30px; 
+}
+
+table{
+	width: 1002px;
+}
+
+.compare th, .compare td{
+	border-top:1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+.compare th{
+	background: #f7f7f7;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.compare td{
+	padding: 10px 20px;
+}
+.green{
+	color: #00a67d; 
+}
+.form{
+    margin-top: 65px;
+    height: 400px;
+	background-image: url(images/background_32.png);
+}
+
+.form h4{
+	padding-top: 30px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+.form_text{
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.form_text form input{
+	border:none;
+	padding: 8px;
+	display: block;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+.form_text form label{
+	color: white;
+	padding-top: 5px;
+
+}
+
+.form_text .submit{
+   	border:none;
+   	margin-top:5px;
+    background: #00cc99;
+    margin-left: 350px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form_text .submit:hover{
+	background:#007c5d; 
+}
+.form_textarea{
+   float:left;
+   padding-left: 20px;
+   padding-top: 20px;
+  
+}
+.form_textarea textarea{
+	border: none;
+	border-radius: 3px;
+}
+
+.footer{
+	height: 120px;
+
+}
+
+.footer img{
+	padding-top: 26px;
+	padding-left: 20px;
+
+}
+.footer ul{
+	float: right;
+	margin-top: 26px;
+	padding-right: 20px;
+}
+
+.footer li{
+	padding-top: 8px;
+
+}
+
+.footer li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.footer li a span{
+	color: #e12d80;
+}
+
